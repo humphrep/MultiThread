@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void countByEvens(View view) {
-        WeakReference<MainActivity> thisActivity = new WeakReference<>(this);
         CountByEvens count = new CountByEvens(this);
         Thread newThread = new Thread(count);
         newThread.start();
