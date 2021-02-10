@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MultiThread</string>
+    <string name="odds_button">Count by Odds</string>
+    <string name="evens_button">Count by Evens</string>
+</resources>
